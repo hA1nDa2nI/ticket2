@@ -1,0 +1,391 @@
+[ 2019-06-19T15:04:21+08:00 ] 127.0.0.1 /zjm/index.php?_ijt=m28vbj1u3eniesh2u9lb8d9p5b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001657s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001745s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.196485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.196649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007271s ]
+
+[ 2019-06-19T16:01:43+08:00 ] ::1 /tp3/zjm/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003761s ]
+
+[ 2019-06-19T16:02:19+08:00 ] ::1 /tp3/zjm/Home/user/do_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007487s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.1136s ]
+NOTIC: [2] move_uploaded_file(pic/微信图片_20190324191806.jpg): failed to open stream: No such file or directory D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 21 行.
+NOTIC: [2] move_uploaded_file(): Unable to move 'C:\Users\hA1nDa2nI\AppData\Local\Temp\phpAC21.tmp' to 'pic/微信图片_20190324191806.jpg' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 21 行.
+SQL: INSERT INTO `zjm_user` (`username`,`password`,`email`,`tel`,`sex`,`img`) VALUES ('1','1','1111@qq.com','1111','女','<img src=\"pic/微信图片_20190324191806.jpg>') [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006950s ]
+
+[ 2019-06-19T16:02:20+08:00 ] ::1 /tp3/zjm/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004309s ]
+
+[ 2019-06-19T16:02:25+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003518s ]
+ERR: 非法操作:do_login
+
+[ 2019-06-19T16:12:29+08:00 ] ::1 /tp3/zjm/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004513s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004515s ]
+
+[ 2019-06-19T16:13:03+08:00 ] ::1 /tp3/zjm/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005821s ]
+
+[ 2019-06-19T16:13:07+08:00 ] ::1 /tp3/zjm/Home/user/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006139s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.1061s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003692s ]
+
+[ 2019-06-19T16:13:09+08:00 ] ::1 /tp3/zjm/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002787s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017443s ]
+
+[ 2019-06-19T16:13:09+08:00 ] ::1 /tp3/zjm/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007312s ]
+
+[ 2019-06-19T16:14:01+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003488s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0664s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005321s ]
+
+[ 2019-06-19T16:14:28+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003250s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009335s ]
+
+[ 2019-06-19T16:15:00+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002765s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0463s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005156s ]
+
+[ 2019-06-19T16:15:38+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002897s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0479s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 42 行.
+NOTIC: [8] Undefined offset: 0 D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005071s ]
+
+[ 2019-06-19T16:15:57+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004274s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0422s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004600s ]
+
+[ 2019-06-19T16:16:23+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006740s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.1048s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009145s ]
+
+[ 2019-06-19T16:16:46+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003300s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0522s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005721s ]
+
+[ 2019-06-19T16:17:04+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003289s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0406s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006601s ]
+
+[ 2019-06-19T16:17:15+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008330s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0758s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007430s ]
+
+[ 2019-06-19T16:17:37+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003453s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined offset: 0 D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004159s ]
+
+[ 2019-06-19T16:17:39+08:00 ] ::1 /tp3/zjm/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004775s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003563s ]
+
+[ 2019-06-19T16:17:50+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003729s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0592s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004437s ]
+
+[ 2019-06-19T16:17:52+08:00 ] ::1 /tp3/zjm/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006428s ]
+

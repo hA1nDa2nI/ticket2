@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UPDATE</title>
+    <link rel="stylesheet" href="__PUBLIC__/Css/register/register.css" />
+</head>
+<body>
+<div id="register">
+<form action="do_update?userid={$list1[0][id]}&ordid={$list2[0][ordno]}" method="post" enctype="multipart/form-data">
+    <fieldset>
+        <legend id="legend">修改</legend>
+        <table align="center">
+            <tr>
+                <td><br/>用户名&nbsp;&nbsp;<input type="text" name="name" value="{$list1[0][username]}" autofocus required></td>
+            </tr>
+            <tr>
+                <td><br/>电&nbsp;&nbsp;&nbsp;话&nbsp;<input type="text" name="tel" value="{$list1[0][tel]}" required></td>
+            </tr>
+            <tr>
+                <td><br/>邮&nbsp;&nbsp;&nbsp;箱&nbsp;<input type="text" name="email" value="{$list1[0][email]}" required></td>
+            </tr>
+            <tr><td><br/>价&nbsp;&nbsp;&nbsp;格&nbsp;￥
+                    <select name="price">
+                        <option value="{$price[0]}">{$price[0]}</option>
+                        <option value="{$price[1]}">{$price[1]}</option>
+                        <option value="{$price[2]}">{$price[2]}</option>
+                        <option value="{$price[3]}">{$price[3]}</option>
+                        <option value="{$price[4]}">{$price[4]}</option>
+                    </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td><br/>数&nbsp;&nbsp;&nbsp;量&nbsp;<input name="quantity" type="text" value="{$list2[0][quantity]}">张</td>
+            </tr>
+            <tr>
+                <td><br/><input type="submit" name="submit" value="修改">
+                    <input type="reset" name="reset" value="重置"></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>

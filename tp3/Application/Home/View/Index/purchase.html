@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PURCHASE</title>
+    <link rel="stylesheet" href="__PUBLIC__/Css/purchase/purchase.css" />
+</head>
+<body>
+<div id="container">
+    <div id="top">
+        <div id="logo">
+            <img src="__PUBLIC__/Image/index/1.gif" height="120">
+        </div>
+        <div id="shu">
+            <div id="st">
+                <img src="__PUBLIC__/Image/index/aa.jpg" width="100%">
+            </div>
+            <div id="navi">
+                <a href="__URL__/logout">注销</a>
+                <a href="__URL__/upload">上传票源</a>
+                <a href="__URL__/detail">订单详情</a>
+                <a href="__ROOT__/Home/User/login">登录注册</a>
+                <a href="__URL__/index">首页</a>
+            </div>
+        </div>
+    </div>
+    <div id="po">
+        <div id="pic">
+            <img src="__PUBLIC__/Image/index/img1/{$data[0][img]}" height="300px">
+        </div>
+        <div id="detail">
+            <form action="do_purchase?id={$data[0][detail_id]}" method="post">
+                <table border="1" align="center" width="80%">
+                    <tr><td colspan="2">{$data[0][intro]}</td></tr>
+                    <tr><td>主演/团体</td><td>{$data[0][name]}</td></tr>
+                    <tr><td>时间</td><td>{$data[0][time]}</td></tr>
+                    <tr><td>地址</td><td>{$data[0][address]}</td></tr>
+                    <tr><td>价格</td>
+                        <td><font size="4">￥</font>
+                            <select name="price">
+                                <option value="{$price[0]}">{$price[0]}</option>
+                                <option value="{$price[1]}">{$price[1]}</option>
+                                <option value="{$price[2]}">{$price[2]}</option>
+                                <option value="{$price[3]}">{$price[3]}</option>
+                                <option value="{$price[4]}">{$price[4]}</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td>数量</td><td><input name="quantity" type="text" style="width: 40px;">张</td></tr>
+                    <tr><td colspan="2"><button name="submit">确定购买</button></td></tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div id="foot">
+        17240045赵家敏
+    </div>
+</div>
+</body>
+</html>

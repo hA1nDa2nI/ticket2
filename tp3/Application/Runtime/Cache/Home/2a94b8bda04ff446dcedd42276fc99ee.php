@@ -1,0 +1,293 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TICKET</title>
+    <link rel="shortcut icon" href="/tp3/zjm/Public/favicon.ico"  type="image/x-icon"/>
+    <link rel="stylesheet" href="/tp3/zjm/Public/Css/index/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <div id="container">
+        <div id="top">
+            <div id="logo">
+                <img src="/tp3/zjm/Public/Image/index/1.gif" height="120">
+            </div>
+            <div id="shu">
+                <div id="st">
+                    <img src="/tp3/zjm/Public/Image/index/aa.jpg" width="100%">
+                </div>
+                <div id="navi">
+                    <form method="post" action="do_index">
+                        <input id="s" type="search" placeholder="搜索明星、演出、场馆" name="search"/>
+                        <input id="btn1" type="submit" value="搜索" name="submit"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <div id="hd">
+        <div id="fsq">
+            <ul id="pic">
+                <li><a title="演出详情" href="/tp3/zjm/Home/Index/purchase?id=1"><img src="/tp3/zjm/Public/Image/index/img1/<?php echo ($data[0][img]); ?>" width="800" height="350" id="pic1"></a><div id="hh"><font id="q">每日推荐</font></div></li>
+                <li><a title="演出详情" href="/tp3/zjm/Home/Index/purchase?id=2"><img src="/tp3/zjm/Public/Image/index/img1/<?php echo ($data[1][img]); ?>" width="800" height="350" id="pic2"></a></li>
+                <li><a title="演出详情" href="/tp3/zjm/Home/Index/purchase?id=3"><img src="/tp3/zjm/Public/Image/index/img1/<?php echo ($data[2][img]); ?>" width="800" height="350" id="pic3"></a></li>
+                <li><a title="演出详情" href="/tp3/zjm/Home/Index/purchase?id=4"><img src="/tp3/zjm/Public/Image/index/img1/<?php echo ($data[3][img]); ?>" width="580" height="350" id="pic4"></a></li>
+                <li><a title="演出详情" href="/tp3/zjm/Home/Index/purchase?id=5"><img src="/tp3/zjm/Public/Image/index/img1/<?php echo ($data[4][img]); ?>" width="580" height="350" id="pic5"></a></li>
+                <li><a title="演出详情" href="/tp3/zjm/Home/Index/purchase?id=6"><img src="/tp3/zjm/Public/Image/index/img1/<?php echo ($data[5][img]); ?>" width="880" height="350" id="pic6"></a></li>
+            </ul>
+        </div>
+        <div id="jx">
+            <div id="gif"><img src="/tp3/zjm/Public/Image/index/gif.gif" width="200"></div>
+            <div id="jx0">
+                <ul>
+                    <li><a href="Index/index">首页</a></li>
+                    <li><a href="/tp3/zjm/Home/User/login">登录注册</a></li>
+                    <li><a href="/tp3/zjm/Home/Index/detail">订单详情</a></li>
+                    <li><a href="/tp3/zjm/Home/Index/upload">上传票源</a></li>
+                    <li><a href="/tp3/zjm/Home/Index/logout">注销</a></li>
+                </ul>
+            </div>
+            <div id="aa"></div>
+            <div id="jx1">
+                <form id="form1">
+                    <table align="center">
+                        <tr><td colspan="2" align="center"><br/><b><font size="+3"><?php echo ($data[0][intro]); ?></font></b><br/></td></tr>
+                        <tr><td align="right">时间：</td><td align="left"><?php echo ($data[0][time]); ?></td></tr>
+                        <tr><td align="right">地点：</td><td align="left"><?php echo ($data[0][address]); ?></td></tr>
+                        <tr><td align="right">票价：</td><td align="left"><?php echo ($data[0][price]); ?></td></tr>
+                        <tr><td align="right">主演/团体：</td><td align="left"><?php echo ($data[0][name]); ?></td></tr>
+                    </table>
+                </form>
+            </div>
+            <div id="jx2">
+                <form id="form2">
+                    <table align="center">
+                        <tr><td colspan="2" align="center"><br/><b><font size="+3"><?php echo ($data[1][intro]); ?></font></b><br/></td></tr>
+                        <tr><td align="right"><font size="+2">时间：</font></td><td align="left"><?php echo ($data[1][time]); ?></td></tr>
+                        <tr><td align="right"><font size="+2">地点：</font></td><td align="left"><?php echo ($data[1][address]); ?></td></tr>
+                        <tr><td align="right"><font size="+2">票价：</font></td><td align="left"><?php echo ($data[1][price]); ?></td></tr>
+                        <tr><td align="right"><font size="+2">主演/团体：</font></td><td align="left"><?php echo ($data[1][name]); ?></td></tr>
+                    </table>
+                </form>
+            </div>
+            <div id="jx3">
+                <form id="form3">
+                    <table align="center">
+                        <tr><td colspan="2" align="center"><br/><b><font size="+3"><?php echo ($data[2][intro]); ?></font></b><br/></td></tr>
+                        <tr><td align="right">时间：</td><td align="left"><?php echo ($data[2][time]); ?></td></tr>
+                        <tr><td align="right">地点：</td><td align="left"><?php echo ($data[2][address]); ?></td></tr>
+                        <tr><td align="right">票价：</td><td align="left"><?php echo ($data[2][price]); ?></td></tr>
+                        <tr><td align="right">主演/团体：</td><td align="left"><?php echo ($data[2][name]); ?></td></tr>
+                    </table>
+                </form>
+            </div>
+            <div id="jx4">
+                <form id="form4">
+                    <table align="center">
+                        <tr><td colspan="2" align="center"><br/><b><font size="+3"><?php echo ($data[3][intro]); ?></font></b><br/></td></tr>
+                        <tr><td align="right"><font size="+2">时间：</font></td><td align="left"><?php echo ($data[3][time]); ?></td></tr>
+                        <tr><td align="right"><font size="+2">地点：</font></td><td align="left"><font size="3"><?php echo ($data[3][address]); ?></font></td></tr>
+                        <tr><td align="right"><font size="+2">票价：</font></td><td align="left"><?php echo ($data[3][price]); ?></td></tr>
+                        <tr><td align="right"><font size="+2">主演/团体：</font></td><td align="left"><?php echo ($data[3][name]); ?></td></tr>
+                    </table>
+                </form>
+            </div>
+            <div id="jx5">
+                <form id="form5">
+                    <table align="center">
+                        <tr><td colspan="2" align="center"><br/><b><font size="+3"><?php echo ($data[4][intro]); ?></font></b><br/></td></tr>
+                        <tr><td align="right">时间：</td><td align="left"><?php echo ($data[4][time]); ?></td></tr>
+                        <tr><td align="right">地点：</td><td align="left"><?php echo ($data[4][address]); ?></td></tr>
+                        <tr><td align="right">票价：</td><td align="left"><?php echo ($data[4][price]); ?></td></tr>
+                        <tr><td align="right">主演/团体：</td><td align="left"><?php echo ($data[4][name]); ?></td></tr>
+                    </table>
+                </form>
+            </div>
+            <div id="jx6">
+                <form id="form6">
+                    <table align="center">
+                        <tr><td colspan="2" align="center"><br/><b><font size="+3"><?php echo ($data[5][intro]); ?></font></b><br/></td></tr>
+                        <tr><td align="right">时间：</td><td align="left"><?php echo ($data[5][time]); ?></td></tr>
+                        <tr><td align="right">地点：</td><td align="left"><?php echo ($data[5][address]); ?></td></tr>
+                        <tr><td align="right">票价：</td><td align="left"><?php echo ($data[5][price]); ?></td></tr>
+                        <tr><td align="right">主演/团体：</td><td align="left"><?php echo ($data[5][name]); ?></td></tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="zh">
+        <div id="tj">
+            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><div id="tp1">
+                    <img src="/tp3/zjm/Public/Image/index/img1/<?php echo ($item["img"]); ?>" width=100% height="280">
+                    <a title="演出详情" href="/tp3/zjm/Home/Index/purchase?id=<?php echo ($item["detail_id"]); ?>">
+                        <div id="mask">
+                            <br><font size="+3"><?php echo ($item["name"]); ?></font>
+                            <br><?php echo ($item["intro"]); ?><br/><?php echo ($item["time"]); ?><br/><?php echo ($item["price"]); ?><br/><?php echo ($item["address"]); ?>
+                        </div>
+                    </a>
+                </div><?php endforeach; endif; else: echo "" ;endif; ?>
+        </div>
+        <div id="fy">
+            <p><?php echo ($page); ?></p>
+        </div>
+    </div>
+    <div id=rili>
+        <div id="yc">
+            <div id="ync">
+                <?php echo ($date); ?>共有 <?php echo ($num); ?> 场电影上映
+            </div>
+            <div id="more">
+            </div>
+            <div id="qw">
+                <?php if(is_array($ri)): $i = 0; $__LIST__ = $ri;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?><div id="q1">
+                        <a title="演出详情" href="/tp3/zjm/Home/Index/purchase?id=<?php echo ($item["detail_id"]); ?>">
+                            <img src="/tp3/zjm/Public/Image/index/img1/<?php echo ($item["img"]); ?>" width=100% height="240px"/>
+                        </a>
+                        <p></p>
+                        <div id="xiao"><?php echo ($item["intro"]); ?><br></div>
+                    </div><?php endforeach; endif; else: echo "" ;endif; ?>
+            </div>
+        </div>
+        <div id="ycrl">
+            上映日期
+        </div>
+        <div id="rl">
+            <table class="call" width=100% height="70px">
+                <tr>
+                    <td class="callleft" align="center" ><strong><</strong></td>
+                    <td colspan="5" align="center"><strong>2019/07</strong></td>
+                    <td align="center"><b>></b></td>
+                </tr>
+                <tr>
+                    <td align="center" width="70px"><b>日</b></td>
+                    <td align="center" width="70px"><b>一</b></td>
+                    <td align="center" width="70px"><b>二</b></td>
+                    <td align="center" width="70px"><b>三</b></td>
+                    <td align="center" width="70px"><b>四</b></td>
+                    <td align="center" width="70px"><b>五</b></td>
+                    <td align="center" width="70px"><b>六</b></td>
+                </tr>
+            </table>
+            <table  class="cal" width=100% height="270px">
+                <tr>
+                    <td align="center" style="color: black;" ><b></b></td>
+                    <td align="center" style="color: white; background-color:#170017;"><b>1</b></td>
+                    <td align="center"><b>2</b></td>
+                    <td align="center"><b>3</b></td>
+                    <td align="center"><b>4</b></td>
+                    <td align="center"><b>5</b></td>
+                    <td align="center"><b>6</b></td>
+                </tr>
+                <tr>
+                    <td align="center"><b>7</b></td>
+                    <td align="center"><b>8</b></td>
+                    <td align="center"><b>9</b></td>
+                    <td align="center"><b>10</b></td>
+                    <td align="center"><b>11</b></td>
+                    <td align="center"><b>12</b></td>
+                    <td align="center"><b>13</b></td>
+                </tr>
+                <tr>
+                    <td align="center"><b>14</b></td>
+                    <td align="center"><b>15</b></td>
+                    <td align="center"><b>16</b></td>
+                    <td align="center"><b>17</b></td>
+                    <td align="center"><b>18</b></td>
+                    <td align="center"><b>19</b></td>
+                    <td align="center"><b>20</b></td>
+                </tr>
+                <tr>
+                    <td align="center"><b>21</b></td>
+                    <td align="center"><b>22</b></td>
+                    <td align="center"><b>23</b></td>
+                    <td align="center"><b>24</b></td>
+                    <td align="center"><b>25</b></td>
+                    <td align="center"><b>26</b></td>
+                    <td align="center"><b>27</b></td>
+                </tr>
+                <tr>
+                    <td align="center"><b>28</b></td>
+                    <td align="center"><b>29</b></td>
+                    <td align="center"><b>30</b></td>
+                    <td align="center"><b>31</b></td>
+                    <td align="center" style="color: black;"><b></b></td>
+                    <td align="center" style="color: black;"><b></b></td>
+                    <td align="center" style="color: black;"><b></b></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="foot">
+        17240045赵家敏
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    var jx0=document.getElementById("jx0");
+    var pic=document.getElementById("pic");
+    var gif=document.getElementById("gif");
+    var hh=document.getElementById("hh");
+    var aa=document.getElementById("aa");
+    pic.onmouseover=function(){
+        jx0.style.display="none";
+        hh.style.display="none";
+        aa.style.display="block";
+        gif.style.display="none";
+    }
+    pic.onmouseout=function(){
+        jx0.style.display="block";
+        hh.style.display="block";
+        aa.style.display="none";
+        gif.style.display="block";
+    }
+    var jx1=document.getElementById("jx1");
+    var pic1=document.getElementById("pic1");
+    pic1.onmouseover=function(){
+        jx1.style.display="block";
+    }
+    pic1.onmouseout=function(){
+        jx1.style.display="none";
+    }
+    var jx2=document.getElementById("jx2");
+    var pic2=document.getElementById("pic2");
+    pic2.onmouseover=function(){
+        jx2.style.display="block";
+    }
+    pic2.onmouseout=function(){
+        jx2.style.display="none";
+    }
+    var jx3=document.getElementById("jx3");
+    var pic3=document.getElementById("pic3");
+    pic3.onmouseover=function(){
+        jx3.style.display="block";
+    }
+    pic3.onmouseout=function(){
+        jx3.style.display="none";
+    }
+    var jx4=document.getElementById("jx4");
+    var pic4=document.getElementById("pic4");
+    pic4.onmouseover=function(){
+        jx4.style.display="block";
+    }
+    pic4.onmouseout=function(){
+        jx4.style.display="none";
+    }
+    var jx5=document.getElementById("jx5");
+    var pic5=document.getElementById("pic5");
+    pic5.onmouseover=function(){
+        jx5.style.display="block";
+    }
+    pic5.onmouseout=function(){
+        jx5.style.display="none";
+    }
+    var jx6=document.getElementById("jx6");
+    var pic6=document.getElementById("pic6");
+    pic6.onmouseover=function(){
+        jx6.style.display="block";
+    }
+    pic6.onmouseout=function(){
+        jx6.style.display="none";
+    }
+</script>
+</html>

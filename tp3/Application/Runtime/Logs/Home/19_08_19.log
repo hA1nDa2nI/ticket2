@@ -1,0 +1,701 @@
+[ 2019-08-19T19:46:35+08:00 ] ::1 /tp3/zjm/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.163294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.163389s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.5905s ]
+SQL: SELECT * FROM `zjm_detail`  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zjm_detail` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zjm_detail` ORDER BY detail_id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zjm_detail` WHERE `time` LIKE '2019.08.19%' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zjm_detail` WHERE `time` LIKE '2019.08.19%' ORDER BY time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.104000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.104083s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 42 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 43 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 63 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 66 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 67 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 77 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 78 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 98 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 110 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.125353s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.125456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.131314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.131393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.341443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.341549s ]
+
+[ 2019-08-19T19:47:11+08:00 ] ::1 /tp3/zjm/Home/Index/purchase?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003652s ]
+
+[ 2019-08-19T19:47:12+08:00 ] ::1 /tp3/zjm/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004888s ]
+
+[ 2019-08-19T19:47:13+08:00 ] ::1 /tp3/zjm/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003742s ]
+
+[ 2019-08-19T19:47:15+08:00 ] ::1 /tp3/zjm/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003261s ]
+
+[ 2019-08-19T19:47:15+08:00 ] ::1 /tp3/zjm/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005807s ]
+
+[ 2019-08-19T19:47:54+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003272s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.1998s ]
+SQL: SELECT * FROM `zjm_user` WHERE `username` = 'zjs' LIMIT 1   [ RunTime:0.0573s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `zjm_user` (`username`,`password`,`email`,`tel`,`sex`,`img`) VALUES ('zjs','zjs','zjs@qq.com','1111','男','5d5a8c6a48d2d.jpg') [ RunTime:0.0634s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009714s ]
+
+[ 2019-08-19T19:47:56+08:00 ] ::1 /tp3/zjm/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010971s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010990s ]
+
+[ 2019-08-19T19:47:56+08:00 ] ::1 /tp3/zjm/index.php/Home/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014099s ]
+
+[ 2019-08-19T19:48:07+08:00 ] ::1 /tp3/zjm/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003326s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0927s ]
+SQL: SELECT * FROM `zjm_user` WHERE ( username='zjs' ) LIMIT 1   [ RunTime:0.0163s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\UserController.class.php 第 84 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003384s ]
+
+[ 2019-08-19T19:48:09+08:00 ] ::1 /tp3/zjm/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004362s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.1874s ]
+SQL: SELECT * FROM `zjm_detail`  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zjm_detail` LIMIT 1   [ RunTime:0.0365s ]
+SQL: SELECT * FROM `zjm_detail` ORDER BY detail_id desc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zjm_detail` WHERE `time` LIKE '2019.08.19%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zjm_detail` WHERE `time` LIKE '2019.08.19%' ORDER BY time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 42 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 43 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 63 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 66 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 67 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 77 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 78 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 98 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 110 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015519s ]
+
+[ 2019-08-19T19:48:13+08:00 ] ::1 /tp3/zjm/Home/Index/purchase?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004081s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.1302s ]
+SQL: SELECT * FROM `zjm_detail` WHERE ( detail_id='3' )  [ RunTime:0.0558s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\IndexController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\IndexController.class.php 第 56 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\IndexController.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\55e103495080fc04bddca881f1014077.php 第 29 行.
+NOTIC: [8] Use of undefined constant detail_id - assumed 'detail_id' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\55e103495080fc04bddca881f1014077.php 第 32 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\55e103495080fc04bddca881f1014077.php 第 34 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\55e103495080fc04bddca881f1014077.php 第 35 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\55e103495080fc04bddca881f1014077.php 第 36 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\55e103495080fc04bddca881f1014077.php 第 37 行.
+NOTIC: [8] Undefined offset: 4 D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\55e103495080fc04bddca881f1014077.php 第 45 行.
+NOTIC: [8] Undefined offset: 4 D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\55e103495080fc04bddca881f1014077.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003394s ]
+
+[ 2019-08-19T19:48:19+08:00 ] ::1 /tp3/zjm/Home/Index/do_purchase?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003116s ]
+SQL: SHOW COLUMNS FROM `zjm_ord` [ RunTime:0.2415s ]
+SQL: INSERT INTO `zjm_ord` (`user_id`,`detail_id`,`price`,`quantity`,`addprice`) VALUES ('28','3','680','3','2040') [ RunTime:0.0162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003838s ]
+
+[ 2019-08-19T19:48:22+08:00 ] ::1 /tp3/zjm/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002740s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.1103s ]
+SQL: SELECT * FROM `zjm_detail`  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zjm_detail` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zjm_detail` ORDER BY detail_id desc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zjm_detail` WHERE `time` LIKE '2019.08.19%' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zjm_detail` WHERE `time` LIKE '2019.08.19%' ORDER BY time desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 42 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 43 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 63 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 66 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 67 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 77 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 78 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 98 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 110 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008114s ]
+
+[ 2019-08-19T19:48:25+08:00 ] ::1 /tp3/zjm/Home/Index/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003244s ]
+SQL: SHOW COLUMNS FROM `zjm_ord` [ RunTime:0.0848s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0648s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.0639s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id LIMIT 1   [ RunTime:0.0405s ]
+SQL: SELECT ord.ordno AS ordno,ord.ordtime AS ordtime,ord.quantity AS quantity,ord.price AS price,ord.addprice AS addprice,user.id AS id,user.username AS username,user.tel AS tel,user.email AS email,user.img AS img,detail.detail_id AS detail_id,detail.intro AS intro,detail.time AS time,detail.address AS address FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id ORDER BY ord.ordtime desc LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008807s ]
+
+[ 2019-08-19T19:48:30+08:00 ] ::1 /tp3/zjm/index.php/Home/Index/detail/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004320s ]
+SQL: SHOW COLUMNS FROM `zjm_ord` [ RunTime:0.1601s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0511s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.0605s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT ord.ordno AS ordno,ord.ordtime AS ordtime,ord.quantity AS quantity,ord.price AS price,ord.addprice AS addprice,user.id AS id,user.username AS username,user.tel AS tel,user.email AS email,user.img AS img,detail.detail_id AS detail_id,detail.intro AS intro,detail.time AS time,detail.address AS address FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id ORDER BY ord.ordtime desc LIMIT 8,4   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004514s ]
+
+[ 2019-08-19T19:48:32+08:00 ] ::1 /tp3/zjm/index.php/Home/Index/detail/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002591s ]
+SQL: SHOW COLUMNS FROM `zjm_ord` [ RunTime:0.1038s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0518s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.0453s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT ord.ordno AS ordno,ord.ordtime AS ordtime,ord.quantity AS quantity,ord.price AS price,ord.addprice AS addprice,user.id AS id,user.username AS username,user.tel AS tel,user.email AS email,user.img AS img,detail.detail_id AS detail_id,detail.intro AS intro,detail.time AS time,detail.address AS address FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id ORDER BY ord.ordtime desc LIMIT 4,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003397s ]
+
+[ 2019-08-19T19:48:34+08:00 ] ::1 /tp3/zjm/index.php/Home/Index/detail/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `zjm_ord` [ RunTime:0.0297s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0458s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.0498s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT ord.ordno AS ordno,ord.ordtime AS ordtime,ord.quantity AS quantity,ord.price AS price,ord.addprice AS addprice,user.id AS id,user.username AS username,user.tel AS tel,user.email AS email,user.img AS img,detail.detail_id AS detail_id,detail.intro AS intro,detail.time AS time,detail.address AS address FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id ORDER BY ord.ordtime desc LIMIT 0,4   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004191s ]
+
+[ 2019-08-19T19:48:37+08:00 ] ::1 /tp3/zjm/index.php/Home/Index/update?ordid=34&userid=28&detail_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003438s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.0846s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0446s ]
+SQL: SHOW COLUMNS FROM `zjm_ord` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `zjm_detail` WHERE ( detail_id='3' )  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\IndexController.class.php 第 156 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\IndexController.class.php 第 158 行.
+SQL: SELECT * FROM `zjm_user` WHERE ( id='28' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zjm_ord` WHERE ( ordno='34' )  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant list1 - assumed 'list1' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\IndexController.class.php 第 161 行.
+NOTIC: [8] Use of undefined constant list2 - assumed 'list2' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\IndexController.class.php 第 162 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\888be25e3621a816c89e98867ccbe3fd.php 第 10 行.
+NOTIC: [8] Use of undefined constant ordno - assumed 'ordno' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\888be25e3621a816c89e98867ccbe3fd.php 第 10 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\888be25e3621a816c89e98867ccbe3fd.php 第 15 行.
+NOTIC: [8] Use of undefined constant tel - assumed 'tel' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\888be25e3621a816c89e98867ccbe3fd.php 第 18 行.
+NOTIC: [8] Use of undefined constant email - assumed 'email' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\888be25e3621a816c89e98867ccbe3fd.php 第 21 行.
+NOTIC: [8] Undefined offset: 4 D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\888be25e3621a816c89e98867ccbe3fd.php 第 29 行.
+NOTIC: [8] Undefined offset: 4 D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\888be25e3621a816c89e98867ccbe3fd.php 第 29 行.
+NOTIC: [8] Use of undefined constant quantity - assumed 'quantity' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\888be25e3621a816c89e98867ccbe3fd.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004256s ]
+
+[ 2019-08-19T19:48:44+08:00 ] ::1 /tp3/zjm/index.php/Home/Index/do_update?userid=28&ordid=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003675s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0971s ]
+SQL: SHOW COLUMNS FROM `zjm_ord` [ RunTime:0.0498s ]
+SQL: UPDATE `zjm_user` SET `username`='zjs',`tel`='1111',`email`='zjs@qq.com' WHERE `id` = 28 [ RunTime:0.0272s ]
+SQL: UPDATE `zjm_ord` SET `price`='480',`quantity`='4',`addprice`='1920' WHERE `ordno` = 34 [ RunTime:0.0072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005366s ]
+
+[ 2019-08-19T19:48:47+08:00 ] ::1 /tp3/zjm/index.php/Home/Index/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006243s ]
+SQL: SHOW COLUMNS FROM `zjm_ord` [ RunTime:0.1438s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0493s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT ord.ordno AS ordno,ord.ordtime AS ordtime,ord.quantity AS quantity,ord.price AS price,ord.addprice AS addprice,user.id AS id,user.username AS username,user.tel AS tel,user.email AS email,user.img AS img,detail.detail_id AS detail_id,detail.intro AS intro,detail.time AS time,detail.address AS address FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id ORDER BY ord.ordtime desc LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004567s ]
+
+[ 2019-08-19T19:48:55+08:00 ] ::1 /tp3/zjm/index.php/Home/Index/detail/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003940s ]
+SQL: SHOW COLUMNS FROM `zjm_ord` [ RunTime:0.0704s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0563s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.0536s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT ord.ordno AS ordno,ord.ordtime AS ordtime,ord.quantity AS quantity,ord.price AS price,ord.addprice AS addprice,user.id AS id,user.username AS username,user.tel AS tel,user.email AS email,user.img AS img,detail.detail_id AS detail_id,detail.intro AS intro,detail.time AS time,detail.address AS address FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id ORDER BY ord.ordtime desc LIMIT 12,4   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003407s ]
+
+[ 2019-08-19T19:48:59+08:00 ] ::1 /tp3/zjm/index.php/Home/Index/detail/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003808s ]
+SQL: SHOW COLUMNS FROM `zjm_ord` [ RunTime:0.0772s ]
+SQL: SHOW COLUMNS FROM `zjm_user` [ RunTime:0.0542s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.0418s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT ord.ordno AS ordno,ord.ordtime AS ordtime,ord.quantity AS quantity,ord.price AS price,ord.addprice AS addprice,user.id AS id,user.username AS username,user.tel AS tel,user.email AS email,user.img AS img,detail.detail_id AS detail_id,detail.intro AS intro,detail.time AS time,detail.address AS address FROM zjm_ord ord  JOIN zjm_user user ON user.id=ord.user_id  JOIN zjm_detail detail ON detail.detail_id=ord.detail_id ORDER BY ord.ordtime desc LIMIT 8,4   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003425s ]
+
+[ 2019-08-19T19:49:00+08:00 ] ::1 /tp3/zjm/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003859s ]
+SQL: SHOW COLUMNS FROM `zjm_detail` [ RunTime:0.0555s ]
+SQL: SELECT * FROM `zjm_detail`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Home\Controller\IndexController.class.php 第 24 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zjm_detail` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zjm_detail` ORDER BY detail_id desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zjm_detail` WHERE `time` LIKE '2019.08.19%' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zjm_detail` WHERE `time` LIKE '2019.08.19%' ORDER BY time desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 41 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 42 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 43 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 63 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 64 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 65 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 66 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 67 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 74 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 75 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 77 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 78 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 86 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 89 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 96 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 97 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 98 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 99 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 100 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 108 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 110 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 111 行.
+NOTIC: [8] Use of undefined constant intro - assumed 'intro' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\Downloads\PHP\phpstudyY\PHPTutorial\WWW\tp3\zjm\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009003s ]
+
